@@ -3,7 +3,7 @@ import dynamoDb from "./libs/dynamodb-lib";
 
 export const main = handler(async (event, context) => {
   const params = {
-    TableName: "notes",
+    TableName: "dev-notes-infra-dynamodb-TableCD117FA1-CIKGVVJAGUFQ",
     Key: {
       userId: event.requestContext.identity.cognitoIdentityId,
       noteId: event.pathParameters.id
