@@ -147,7 +147,7 @@ functions:
           
           
 # 분리된 CloudFormation 템플릿을 생성합니다. 
-resources:
+resources:    
   # API Gateway 에러 
   - ${file(resources/api-gateway-errors.yml)}
   # Cognito Identity Pool Policy
